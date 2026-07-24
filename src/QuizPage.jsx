@@ -44,7 +44,7 @@ function disable_submit(){
 let option_content = questions[index].options.map(option=>
     <div className="option" key={option}>
 
-    <label>
+    <label className="option-label">
 
       <input
 
@@ -58,7 +58,7 @@ let option_content = questions[index].options.map(option=>
         
       />
 
-      {option}
+       <span>{option}</span>
 
     </label>
 

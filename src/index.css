@@ -142,3 +142,106 @@ button:disabled{
     font-size:18px;
     line-height:1.7;
 }
+
+
+/* ================= Tablet ================= */
+
+@media (max-width: 900px) {
+
+    .quiz-card,
+    .score-card{
+        width:90%;
+        padding:30px;
+    }
+
+    .quiz-card h1,
+    .score-card h1{
+        font-size:34px;
+    }
+
+    .question{
+        font-size:22px;
+    }
+
+    .buttons{
+        gap:15px;
+    }
+
+    button{
+        width:100%;
+    }
+}
+
+
+/* ================= Mobile ================= */
+
+@media (max-width:600px){
+
+    body{
+        padding:20px 10px;
+    }
+
+    .container{
+        padding:0;
+    }
+
+    .quiz-card,
+    .score-card{
+        width:100%;
+        padding:20px;
+        border-radius:16px;
+    }
+
+    .quiz-card h1,
+    .score-card h1{
+        font-size:28px;
+        margin-bottom:15px;
+    }
+
+    .quiz-card h2,
+    .score-card h2{
+        font-size:18px;
+    }
+
+    .question{
+        font-size:20px;
+        text-align:left;
+    }
+
+    .options{
+        gap:12px;
+    }
+
+    .option{
+        padding:15px;
+    }
+
+    .option label{
+        font-size:16px;
+        line-height:1.5;
+    }
+
+    input[type="radio"]{
+        transform:scale(1.15);
+        flex-shrink:0;
+    }
+
+    .buttons{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    button{
+        width:100%;
+        padding:14px;
+        font-size:16px;
+    }
+
+    .submit-btn{
+        margin-top:20px;
+    }
+
+    .score-card p{
+        font-size:16px;
+    }
+}
