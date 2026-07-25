@@ -6,7 +6,7 @@ A modern and responsive Quiz Application built with **React** and **Vite**. Test
 
 ## 🚀 Live Demo
 
-🔗 https://YOUR-VERCEL-LINK.vercel.app
+🔗 https://react-quiz-app-olive-omega.vercel.app/
 
 ---
 
