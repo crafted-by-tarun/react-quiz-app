@@ -1,16 +1,149 @@
-# React + Vite
+# 🧠 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Quiz Application built with **React** and **Vite**. Test your knowledge through multiple-choice questions with an intuitive interface, instant score calculation, and a clean glassmorphism-inspired UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://YOUR-VERCEL-LINK.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📝 Multiple Choice Questions
+- 🎯 Real-Time Answer Selection
+- 📊 Automatic Score Calculation
+- ⏮️ Previous & Next Navigation
+- ✅ Submit Button Enabled Only After Answering All Questions
+- 📱 Fully Responsive Design
+- ⚡ Fast Performance with Vite
+- 🎨 Modern UI with Smooth Hover Effects
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- Git & GitHub
+- Vercel
+
+---
+
+## 📷 Preview
+
+### Desktop
+
+> Add a desktop screenshot here
+
+```
+assets/quiz-desktop.png
+```
+
+### Mobile
+
+> Add a mobile screenshot here
+
+```
+assets/quiz-mobile.png
+```
+
+---
+
+## 📂 Project Structure
+
+```
+react-quiz-app
+│
+├── public/
+├── src/
+│   ├── Components/
+│   ├── Questions.js
+│   ├── QuizPage.jsx
+│   ├── ScorePage.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/crafted-by-tarun/react-quiz-app.git
+```
+
+Navigate to the project folder
+
+```bash
+cd react-quiz-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📱 Responsive Design
+
+The application is optimized for:
+
+- 💻 Desktop
+- 💼 Laptop
+- 📱 Tablet
+- 📲 Mobile Devices
+
+---
+
+## 🎯 Future Improvements
+
+- ⏱️ Quiz Timer
+- 📈 Progress Bar
+- 🏆 Leaderboard
+- 🔀 Randomized Questions
+- 📚 Multiple Quiz Categories
+- 🌙 Dark / Light Theme
+- 📊 Performance Analytics
+- 🔊 Sound Effects
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+Feel free to fork the repository and submit a Pull Request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Tarun Mahindra**
+
+GitHub: https://github.com/crafted-by-tarun
